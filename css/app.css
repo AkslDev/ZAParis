@@ -1,0 +1,88 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:700italic,400,700|Open+Sans+Condensed:300,300italic,700|Slabo+13px);
+header,
+nav,
+footer,
+div {
+  width: 100%;
+}
+.header {
+  padding: 20px 0;
+  background: #fff;
+  font: normal 2em / normal 'Nixie One', serif;
+  color: #ff6e6f;
+  height: 100%;
+  text-align: center;
+  background: url('../img/banner-landing.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+.header .logo{
+  width: 40rem;
+  margin: 5rem auto;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+nav .logo {
+    width: 5rem;
+    margin-top: 0.3rem;
+    margin-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+    width: 30rem;
+    margin-top: 1rem;
+    float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 -4px;
+  padding: 5px 0;
+}
+nav ul li a {
+  padding: 5px 20px;
+  font: normal 1em / normal 'Open Sans Condensed', sans-serif;
+  color: #2E2E2E;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  background: #343434;
+}
+section {
+  padding: 20px;
+  height: 500px;
+  font: normal 2em / normal 'Open Sans Condensed', sans-serif;
+}
+section#section1,
+section#section3 {
+  background: #343434;
+  color: #eee;
+}
+section#section2,
+section#section4 {
+  background: #666;
+  color: #eee;
+}
+h1 {
+  font-size: 2em;
+}
+footer {
+  padding: 20px;
+  background: #ff6e6f;
+  font: normal 1em 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  text-align: center;
+}
