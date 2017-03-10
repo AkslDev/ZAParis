@@ -9,7 +9,10 @@
   	font-family: "NeutraLight";
   	src: url("../fonts/Neutra-light.otf");
 }
-
+@font-face {
+  	font-family: "Beyno";
+  	src: url("../fonts/BEYNO.ttf");
+}
 header,nav,footer,div {
   	width: 100%;
 }
@@ -150,7 +153,7 @@ nav ul li {
 }
 nav ul li a {
   	padding: 5px 20px;
-  	font: normal 1em / normal 'Open Sans Condensed', sans-serif;
+  	font: normal 1em / normal 'NeutraText', sans-serif;
   	color: #2E2E2E;
   	text-decoration: none;
   	text-transform: uppercase;
@@ -254,6 +257,7 @@ h1 {
 }
 
 .salade h3 {
+	font-family: 'Beyno';
     text-transform: uppercase;
     color: #FFF;
     background: black;
@@ -272,11 +276,12 @@ h1 {
 .all_salade h2 {
     text-transform: uppercase;
     font-size: 1.51rem;
+    font-family: 'NeutraText';
 }
 
 .all_salade p.description {
-    font-size: 1.1rem;
-    margin-top: -1rem;
+    font-family: 'NeutraLight';
+    font-size: 0.5em;
 }
 
 .all_salade h2,
@@ -285,10 +290,11 @@ h1 {
 }
 
 .all_salade p.price {
-    position: absolute;
-    right: 5.7rem;
-    margin-top: -4.1rem;
-    font-size: 1.4rem;
+	font-family: 'NeutraLight';
+    	position: absolute;
+   	right: 5.7rem;
+    	margin-top: -4.1rem;
+    	font-size: 1.4rem;
 }
 
 span.vegan_certified {
@@ -311,17 +317,18 @@ span.vegan_certified {
 /*soupe*/
 
 .soupe h3{
-  text-transform: uppercase;
+  	text-transform: uppercase;
 }
 
 .soupe h3 {
-    text-transform: uppercase;
-    color: #FFF;
-    background: black;
-    display: block;
-    width: 11.05rem;
-    margin: 3rem auto;
-    padding: 4px 15px;
+	font-family:'Beyno';
+    	text-transform: uppercase;
+    	color: #FFF;
+    	background: black;
+    	display: block;
+    	width: 11.05rem;
+    	margin: 3rem auto;
+    	padding: 4px 15px;
 }
 
 .all_soupe {
@@ -333,6 +340,7 @@ span.vegan_certified {
 .all_soupe h2 {
     text-transform: uppercase;
     font-size: 1.51rem;
+    font-family: 'NeutraText';
 }
 
 .all_soupe p.description {
@@ -346,10 +354,11 @@ span.vegan_certified {
 }
 
 .all_soupe p.price {
-    position: absolute;
-    right: 5.7rem;
-    margin-top: -2.8rem;
-    font-size: 1.4rem;
+	font-family: 'NeutraLight';
+    	position: absolute;
+    	right: 5.7rem;
+    	margin-top: -2.8rem;
+    	font-size: 1.4rem;
 }
 
 span.vegan_certified {
@@ -374,6 +383,7 @@ span.vegan_certified {
 
 .boisson h3{
   text-transform: uppercase;
+  font-family: 'Beyno';
 }
 
 .boisson h3 {
@@ -393,13 +403,15 @@ span.vegan_certified {
 }
 
 .all_boisson h2 {
-    text-transform: uppercase;
-    font-size: 1.51rem;
+	font-family: 'NeutraText';
+    	text-transform: uppercase;
+    	font-size: 1.51rem;
 }
 
 .all_boisson p.description {
-    font-size: 1.1rem;
-    margin-top: -1rem;
+	font-family: 'NeutraLight';
+    	font-size: 1.1rem;
+   	margin-top: -1rem;
 }
 
 .all_boisson h2,
@@ -408,10 +420,11 @@ span.vegan_certified {
 }
 
 .all_boisson p.price {
-    position: absolute;
-    right: 5.7rem;
-    margin-top: -2.8rem;
-    font-size: 1.4rem;
+	font-family: 'NeutraLight';
+    	position: absolute;
+    	right: 5.7rem;
+    	margin-top: -2.8rem;
+    	font-size: 1.4rem;
 }
 
 span.vegan_certified {
