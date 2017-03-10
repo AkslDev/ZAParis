@@ -239,6 +239,198 @@ h1 {
 	border-color: #868686;
 }
 
+.header h1 {
+    margin: 14rem auto;
+    color: #FFF;
+    display: block;
+    width: 24rem;
+    background: black;
+}
+
+/*SALADE*/
+
+.salade h3{
+  text-transform: uppercase;
+}
+
+.salade h3 {
+    text-transform: uppercase;
+    color: #FFF;
+    background: black;
+    display: block;
+    width: 12rem;
+    margin: 3rem auto;
+    padding: 4px 15px;
+}
+
+.all_salade {
+    list-style: none;
+    padding-left: 2rem;
+    padding-right: 3.3rem;
+}
+
+.all_salade h2 {
+    text-transform: uppercase;
+    font-size: 1.51rem;
+}
+
+.all_salade p.description {
+    font-size: 1.1rem;
+    margin-top: -1rem;
+}
+
+.all_salade h2,
+.all_salade .description{
+      width: 48rem;
+}
+
+.all_salade p.price {
+    position: absolute;
+    right: 5.7rem;
+    margin-top: -4.1rem;
+    font-size: 1.4rem;
+}
+
+span.vegan_certified {
+    font-size: 0.9rem;
+    color: #98c222;
+}
+.all_salade li{
+  display: block;
+  padding: 11px 17px 0.5px;
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.03);
+  margin-bottom: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.all_salade li:hover{
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.13);
+}
+
+/*soupe*/
+
+.soupe h3{
+  text-transform: uppercase;
+}
+
+.soupe h3 {
+    text-transform: uppercase;
+    color: #FFF;
+    background: black;
+    display: block;
+    width: 11.05rem;
+    margin: 3rem auto;
+    padding: 4px 15px;
+}
+
+.all_soupe {
+    list-style: none;
+    padding-left: 2rem;
+    padding-right: 3.3rem;
+}
+
+.all_soupe h2 {
+    text-transform: uppercase;
+    font-size: 1.51rem;
+}
+
+.all_soupe p.description {
+    font-size: 1.1rem;
+    margin-top: -1rem;
+}
+
+.all_soupe h2,
+.all_soupe .description{
+      width: 48rem;
+}
+
+.all_soupe p.price {
+    position: absolute;
+    right: 5.7rem;
+    margin-top: -2.8rem;
+    font-size: 1.4rem;
+}
+
+span.vegan_certified {
+    font-size: 0.9rem;
+    color: #98c222;
+}
+.all_soupe li{
+  display: block;
+  padding: 11px 17px 0.5px;
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.03);
+  margin-bottom: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.all_soupe li:hover{
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.13);
+}
+
+
+/*boisson*/
+
+.boisson h3{
+  text-transform: uppercase;
+}
+
+.boisson h3 {
+    text-transform: uppercase;
+    color: #FFF;
+    background: black;
+    display: block;
+    width: 13.15rem;
+    margin: 3rem auto;
+    padding: 4px 15px;
+}
+
+.all_boisson {
+    list-style: none;
+    padding-left: 2rem;
+    padding-right: 3.3rem;
+}
+
+.all_boisson h2 {
+    text-transform: uppercase;
+    font-size: 1.51rem;
+}
+
+.all_boisson p.description {
+    font-size: 1.1rem;
+    margin-top: -1rem;
+}
+
+.all_boisson h2,
+.all_boisson .description{
+      width: 48rem;
+}
+
+.all_boisson p.price {
+    position: absolute;
+    right: 5.7rem;
+    margin-top: -2.8rem;
+    font-size: 1.4rem;
+}
+
+span.vegan_certified {
+    font-size: 0.9rem;
+    color: #98c222;
+}
+.all_boisson li{
+  display: block;
+  padding: 11px 17px 0.5px;
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.03);
+  margin-bottom: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.all_boisson li:hover{
+  box-shadow: 1px 1px 1px 3px rgba(46, 46, 46, 0.13);
+}
+
 /* *********** Stylisation de la section Photo *********** */
 .photo{
 	padding: 0!important;
